@@ -1,1 +1,1 @@
-# Maven-Nexu
+# Maven-Nexus
