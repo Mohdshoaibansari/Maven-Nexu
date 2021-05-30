@@ -6,7 +6,7 @@ pipeline {
 	    OUTPUT_PATH = './output/'
 	}
     tools {
-        maven 'maven3',
+        maven 'maven3'
         git 'git3'
     }
 
