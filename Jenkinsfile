@@ -7,7 +7,7 @@ pipeline {
 	}
     tools {
         maven 'maven3'
-        git 'git3'
+        tool name: 'git3', type: 'git'
     }
 
     //Defined at both pipeline and Stage level. But both level option are diffirent.
