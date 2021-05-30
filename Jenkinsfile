@@ -49,6 +49,7 @@ pipeline {
 
 		    steps {
 		        sh 'mvn -version'
+                sh 'git --version'
 		    }
 			
 		}
