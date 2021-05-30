@@ -6,8 +6,8 @@ pipeline {
 	    OUTPUT_PATH = './output/'
 	}
     tools {
-        maven 'maven3'
-        tool name: 'git3', type: 'git'
+        maven 'maven3',
+        tool 'git3'
     }
 
     //Defined at both pipeline and Stage level. But both level option are diffirent.
